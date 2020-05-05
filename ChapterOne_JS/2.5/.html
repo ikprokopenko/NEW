@@ -1,0 +1,37 @@
+<!-- 
+    Что выведет этот скрипт?
+
+let name = "Ilya";
+
+alert( `hello ${1}` ); // ?  
+
+alert( `hello ${"name"}` ); // ? 
+
+alert( `hello ${name}` ); // ?  
+
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        let name = "Ilya";
+
+        alert(`hello ${1}`); // Выведет 'hello 1'
+
+        alert(`hello ${"name"}`); // Выведет 'hello name'
+
+        alert(`hello ${name}`); // Выведет 'hello Ilya'
+    </script>
+
+</body>
+
+</html>
